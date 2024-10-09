@@ -3,15 +3,103 @@
 <head>
     <meta charset="UTF-8">
        <title>Contant Me</title>
-      <link rel="stylesheet" href="/style.css">
-      <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+<style>
+    body {
+          background-color: #002B5C;
+          text-align: center;
+        }
+
+        .contactPage {
+            line-height: 2.5;
+        }
+        /* Add basic styling */
+        .contact-info {
+            font-size: 18px;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .fa-whatsapp {
+            margin-right: 10px;
+            color: #25D366; /* WhatsApp green color */
+            font-size: 30px;
+        }
+
+        .email-icon {
+            color: #0073e6; /* Email icon color */
+            font-size: 30px;
+        }
+
+        .contact-item {
+            margin: 0 auto;
+            margin-bottom: 10px;
+        }
+
+        span {
+            font-size: 20px;
+            color: #f0f4f8;
+        }
+        .fa-phone {
+            color:#25D366;
+            font-size: 30px;
+        }
+        .contact-item-email {
+            margin-left: 70px;
+        }
+        .contact-item-tel {
+            margin-right: 60px;
+        }
+        .contact-item-whatsapp {
+            margin-right: 60px;
+        }
+        .map-image {
+            width: 100%; /* Makes the image responsive */
+            max-width: 600px; /* Optional: Limit the maximum width */
+            height: auto;
+            border: 2px solid #ddd; /* Optional: Add a border around the map */
+            border-radius: 10px; /* Optional: Rounded corners */
+        }
+        p {
+            color: #f0f4f8;
+        }
+        h1, h2 {
+            color: #A0D7E7;
+        }
+</style>
 </head>
 
 <body class="contactPage">
     <div class="contact-page">
         <h1>Contact Me</h1>
-        <p>Tel: +2349150763188</p>
-        <p>Email: adebayookunmoyinbo@gmail.com</p>
+        <div class="contact-item-whatsapp">
+            <i class="fab fa-whatsapp"></i> <!-- WhatsApp icon -->
+            <span>+234 814 914 3461</span> <!-- Telephone contact -->
+        </div>
+
+        <div>
+            <div class="contact-item-tel">
+                <i class="fas fa-phone"></i>
+                <span>+234 915 076 3188</span>
+            </div>
+        </div>
+        <div class="contact-item-email">
+            <i class="fas fa-envelope email-icon"></i> <!-- Email icon -->
+            <span class="email">adebayookunmoyinbo@gmail.com</span> <!-- Email address -->
+        </div>
+        <div class="contact-info">
+            <h2>My Address</h2>
+            <p>No.9 Okunmoyinbo Avenue,<br/> Thomas Estate, Lagos, Nigeria.</p>
+    
+            <!-- Google Map Screenshot -->
+            <img src="googleAddressScreenshot.png" alt="Google Map Location" class="map-image">
+    
+        </div>
+        <footer>
+            <p>&copy; 2024 Adebayo Okunmoyinbo. All Rights Reserved.</p>
+        </footer>
     </div>
     
 </body>      
